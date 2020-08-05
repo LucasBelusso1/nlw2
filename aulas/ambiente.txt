@@ -1,0 +1,23 @@
+FRONT-END-WEB
+______________________________________________________________________________
+yarn create react-app web --template typescript  -> Utilizando YARN
+npx create-react-app web --template typescript -> Utilizando apenas o NPM
+
+yarn add react-router-dom
+yarn add @types/react-router-dom -D
+
+BACK-END-SERVER
+______________________________________________________________________________
+yarn init -y -> utilizando YARN
+npm init -y -> utilizando NPM
+yarn add typescript -D
+yarn tsc --init
+yarn add ts-node-dev -D
+yarn add express
+yarn add @types/express -D
+
+
+
+SCRIPTS-PACKAGE-JSON
+______________________________________________________________________________
+"start": "ts-node-dev --ignore-watch node_modules --respawn src/server.ts"
